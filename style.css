@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.abcd{
+	background: url();  
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: linear-gradient(rgb(47, 150, 163), rgb(48, 62, 143));
+  
+}
+
+.container{
+	display: flex;
+	
+	min-height: 100vh;
+	flex-direction: column;
+}
+.heading  {
+  text-align: center;
+	margin-top: 0px;
+	font-size: 40px;
+	margin-bottom: -10px;
+	font-family: cursive;
+  font-weight: 600;
+  background: transparent;
+}
+.xy{
+  color:black;
+	animation-name: appear;
+	animation-duration: 20s;
+}
+.searchContent {
+  
+	padding: 50px 15px 15px;
+
+}
+input[type="text"] {
+  
+  width: 100%;
+	max-width: 320px;
+	padding: 10px 15px;
+	background-color:none;
+	outline: none;
+	border-radius: 20px 8px 20px 8px;
+	border:2px black;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-size: 19px;
+	border: 2px solid black;
+	font-weight: bold;
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+}
+.mainContent {
+  margin: 20px;
+  margin-bottom: 0px;
+  padding: 30px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.mainContent h2 {
+  margin: 40px;
+  padding: 18px;
+}
+.contentOne, .contentTwo, .mainContent>h1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+#temp {
+  font-size: 60px;
+  font-weight: bold;
+}
+#weather {
+  font-size: 50px;
+  font-weight: bold;
+}
